@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moscú: Una Mirada a la Ciudad</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a Moscú</h1>
+    </header>
+    <div class="container-main">
+        <nav>
+            <h2>Menú</h2>
+            <ul>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#lugares">Lugares de Interés</a></li>
+            <li><a href="#mapa">Mapa</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="galeria">
+                <h2>Galería de Imágenes</h2>
+                <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/img1.jpg" class="d-block w-100" alt="Moscú Imagen 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/img2.jpg" class="d-block w-100" alt="Moscú Imagen 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/img3.jpg" class="d-block w-100" alt="Moscú Imagen 3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </button>
+                </div>
+            </section>
+        
+            <section id="lugares">
+                <h2>Lugares de Interés</h2>
+                <div class="places-grid">
+                    <div class="place-card">
+                        <img src="img/plazaroja.jpg" alt="Plaza Roja">
+                        <div class="card-content">
+                            <h3>Plaza Roja</h3>
+                            <p>Corazón de Moscú y testigo de grandes eventos históricos. Es Patrimonio de la Humanidad por la UNESCO. La plaza es el punto de referencia desde el cual se miden todas las distancias de las carreteras en Rusia.</p>
+                        </div>
+                    </div>
+                    <div class="place-card">
+                        <img src="img/kremlin.jpg" alt="Kremlin">
+                            <div class="card-content">
+                                <h3>Kremlin</h3>
+                                <p>Fortaleza histórica y residencia del presidente. Sus museos y catedrales atraen millones de turistas cada año. El Kremlin alberga el famoso Palacio del Senado y la Cúpula Dorada de la Catedral de la Asunción.</p>
+                            </div>
+                    </div>
+                    <div class="place-card">
+                        <img src="img/TeatroBolshói.jpg" alt="Teatro Bolshói">
+                        <div class="card-content">
+                            <h3>Teatro Bolshói</h3>
+                            <p>Uno de los teatros más prestigiosos del mundo, hogar del ballet y la ópera rusa. Su arquitectura neoclásica y su imponente auditorio lo convierten en un destino imperdible para los amantes del arte.</p>
+                        </div>
+                    </div>
+                    <div class="place-card">
+                        <img src="img/museo.jpg" alt="Museo Estatal de Historia">
+                        <div class="card-content">
+                            <h3>Museo Estatal de Historia</h3>
+                            <p>Ubicado en la Plaza Roja, este museo alberga una vasta colección de objetos históricos desde la prehistoria hasta la Rusia moderna.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="mapa">
+                <h2>Mapa de Moscú</h2>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?..." allowfullscreen></iframe>
+                </div>
+            </section>
+        </main>
+
+        <aside>
+            <h2>Últimas Noticias</h2>
+            <article>
+                <h3><a href="https://actualidad-rt.com/actualidad/541331-trump-putin-inteligente-guerra" target="_blank">Trump: Ucrania puede olvidarse de la OTAN</a></h3>
+                <p>El presidente estadounidense explicó que los lazos de Ucrania con la Alianza Atlántica probablemente hayan sido "la razón por la que empezó" el conflicto.</p>
+            </article>
+            <article>
+                <h3><a href="https://actualidad-rt.com/actualidad/541331-trump-putin-inteligente-guerra" target="_blank">Zelenski: No acepto "ni un centavo" de deuda en el acuerdo con EE.UU.</a></h3>
+                <p>El líder del régimen de Kiev precisó que aún no ha visto "la versión completa" del documento sobre las tierras raras del país, pero los principales puntos "suenan bien".</p>
+            </article>
+            <article>
+                <h3><a href="https://actualidad-rt.com/actualidad/541331-trump-putin-inteligente-guerra" target="_blank">Logística cortada y enormes pérdidas: Rusia sobre los fracasos de Ucrania en Kursk</a></h3>
+                <p>El Ejército ruso ha liberado dos localidades en la provincia rusa de Kursk.</p>
+            </article>
+        </aside>
+    </div>
+  
+  <footer>
+      <!-- Pie de página, que no se que poner, pero seguro que lees esto Alberto, tambien para dar un poco de rabia, hago el import de scripts de boostrap aqui abajo, porque no? -->
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
